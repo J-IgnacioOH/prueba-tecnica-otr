@@ -1,0 +1,6 @@
+﻿ISSUE_TYPE,DESCRIPCION,FILAS_AFECTADAS,TRATAMIENTO
+PRODUCTOS_DUPLICADOS,SKU duplicados en la hoja PALETIZADO luego de estandarizar el formato.,3,Se conserva el primer registro por SKU para evitar duplicar pedidos al cruzar tablas.
+CANTIDADES_NEGATIVAS,Cantidades negativas en la hoja OTR.,216,Se transforman a valor absoluto por tratarse de un análisis logístico de flujo físico. Devoluciones o ajustes deberían gestionarse en un flujo separado.
+CLIENTES_NO_EN_MAESTRO,Clientes presentes en OTR que no existen en la hoja CLIENTES.,299,Se mantienen las transacciones y se agregan a la dimensión de clientes con atributos SIN MAESTRO.
+ENTREGAS_ANTICIPADAS,Registros donde la fecha de entrega es anterior a la fecha solicitada.,272,"Se conserva la diferencia negativa porque representa entrega anticipada, no atraso."
+SKU_FORMATO_INCONSISTENTE,"Los SKU pueden venir con formatos distintos entre hojas, por ejemplo con ceros a la izquierda.",23,"Se estandariza el SKU directamente en la columna SKU, eliminando ceros a la izquierda y guardándolo como texto."

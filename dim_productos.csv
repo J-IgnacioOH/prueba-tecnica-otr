@@ -1,0 +1,21 @@
+﻿SKU,DESCRIPCION,PESO_KG,VOLUMEN_M3,CANTIDAD_PALLET,TIPO_PRODUCTO
+10001,Nescafé Tradición 170g,0.18,0.0008,24,Normal
+10002,Nescafé Gold 100g,0.11,0.0006,30,Normal
+10003,Nido Crecimiento 800g,0.85,0.0018,12,Normal
+10004,Nido Forticrece 1.6kg,1.65,0.0035,8,Normal
+10005,Maggi Caldo Pollo 11g x12,0.15,0.0004,48,PDQ
+10006,Maggi Sopa Verduras 65g,0.07,0.0003,36,Normal
+20001,KitKat 4 Fingers 41g,0.04,0.0001,60,Normal
+20002,Sahne-Nuss 100g,0.1,0.0003,40,Normal
+20003,Trencito 32g,0.03,0.0001,80,Normal
+20004,Display Chocolates Surtidos,2.5,0.015,1,PDQ
+30001,Purina Dog Chow Adulto 21kg,21.0,0.048,1,Pesado
+30002,Purina Cat Chow 8kg,8.0,0.022,1,Pesado
+30003,Purina Pro Plan Adulto 15kg,15.0,0.035,1,Pesado
+40001,Aguita Pure Life 1.5L,1.55,0.0017,6,Normal
+40002,Aguita Pure Life 500ml x6,3.1,0.0034,6,Normal
+50001,Cerelac Arroz 200g,0.21,0.0007,24,Normal
+50002,Cerelac Mix Frutas 200g,0.21,0.0007,24,Normal
+60001,Milo en polvo 400g,0.42,0.001,18,Normal
+60002,Nesquik chocolate 380g,0.4,0.001,18,Normal
+70001,Maggi Ricasoup Pollo 70g,0.08,0.0003,40,Normal
